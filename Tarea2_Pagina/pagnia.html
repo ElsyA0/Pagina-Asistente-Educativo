@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Planeación Educativa</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="header-inner">
+			<img src="Logo.png" class="mascota" alt="logo">
+			<div class="title">
+				<h1>Planeación Educativa</h1>
+				<p class="tagline">Planifica tus clases de forma sencilla.</p>
+			</div>
+		</div>
+	</header>
+
+	<main class="container">
+		<section class="config-card">
+			<h2>Configura tu Planeación</h2>
+			<form class="config-form" onsubmit="return false;">
+				<div class="row">
+					<label>
+						Campo Formativo
+						<select><option>Lenguajes</option><option>Matemáticas</option></select>
+					</label>
+					<label>
+						Libro de Proyectos
+						<select><option>Leer y Escribir</option></select>
+					</label>
+				</div>
+
+				<div class="row">
+					<label>
+						Proyecto
+						<select><option>Cuentos y Poemas</option></select>
+					</label>
+					<label>
+						Temporalidad
+						<select><option>Semanal</option></select>
+					</label>
+				</div>
+
+				<div class="row dates">
+					<label>Fecha de Inicio <input type="date" value="2024-05-01"></label>
+					<label>Fecha de Fin <input type="date" value="2024-05-07"></label>
+				</div>
+
+				<div class="actions">
+					<button class="btn primary">Guardar Planeación</button>
+					<button class="btn secondary">Exportar a PDF</button>
+				</div>
+			</form>
+		</section>
+
+		<section class="notes">
+			<div class="note yellow">
+				<h3>Aprendizajes Esperados</h3>
+				<p>Descripción de los aprendizajes que se esperan lograr...</p>
+			</div>
+			<div class="note green">
+				<h3>Actividades</h3>
+				<p>Lista de actividades a realizar en clase...</p>
+			</div>
+			<div class="note blue">
+				<h3>Evaluación</h3>
+				<p>Criterios e instrumentos de evaluación...</p>
+			</div>
+			<div class="note purple">
+				<h3>Observaciones</h3>
+				<p>Notas y comentarios adicionales...</p>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<p>El educador es el hombre que hace que las cosas difíciles parezcan fáciles.</p>
+	</footer>
+</body>
+</html>
+
